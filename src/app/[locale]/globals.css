@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+  /* Hide scrollbar in Chrome/Safari/Edge */
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* Hide scrollbar in IE 10+ */
+  scrollbar-width: none;
+  /* Hide scrollbar in Firefox */
+}
+
+body {
+  /* font-family: "poppins", sans-serif; */
+  @apply antialiased;
+}
+
+svg {
+  @apply drop-shadow w-7 h-7;
+}
+
+h5 {
+  @apply tracking-wide text-black font-semibold text-[17px];
+}
+
+h4 {
+  @apply md:text-[21px] text-[19px] md:leading-7 leading-6 font-medium;
+}
+
+h1,
+h2,
+h3 {
+  @apply tracking-wide text-[#023246] font-playfair;
+}
+
+ol.custom-symbol {
+  list-style-type: none;
+  /* Remove default numbering */
+}
+
+ol.custom-symbol li::before {
+  content: "\2713";
+  /* Custom symbol, like a checkmark */
+  margin-right: 10px;
+  /* Space between symbol and text */
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+h1 {
+  @apply text-[#023246] md:text-[45px] font-medium text-[35px] md:leading-[60px] leading-[42px];
+}
+
+h2 {
+  font-weight: 500;
+  @apply md:text-[37px] text-[30px] leading-[35px] md:leading-10;
+}
+
+h3 {
+  font-weight: 500;
+  @apply md:text-[26px] text-[23px] leading-[27px] md:leading-7 text-black;
+}
+
+p,
+li {
+  @apply md:text-[16.5px] text-[15.5px] md:leading-6 leading-[22px] tracking-[0.5px] font-poppins;
+}
+
+.gr {
+  color: #464646;
+}
+
+.pr {
+  @apply text-[#287094];
+}
+
+.pb {
+  @apply text-[#023246];
+}
+
+.ts {
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  filter: hue-rotate();
+}
+
+.b-bg {
+  background: #023246;
+}
+
+.ar-p {
+  @apply font-arabic md:leading-8 leading-7 md:text-[19px] text-[18px];
+}
+
+small {
+  font-family: "poppins";
+}
+
+/* Card slider container */
+.slider-container {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Card wrapper */
+.slider-wrapper {
+  display: flex;
+}
+
+/* Slider track */
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Card styling */
+.card {
+  min-width: 100%;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+
+/* Card header for star ratings */
+.card-header {
+  margin-bottom: 10px;
+}
+
+/* Individual card body */
+.card-body {
+  display: flex;
+  align-items: center;
+}
+
+.card-description {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+  text-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: #333;
+  color: white;
+}

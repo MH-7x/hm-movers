@@ -1,0 +1,787 @@
+{
+  "heroSection": {
+    "headingTitle": "Hamdan Movers And Packers in UAE",
+    "SubTitle": "UAE's Best Moving and Packing Company",
+    "description": "Hamdan Movers and Packers is serving you with the top quality of moving solutions for the 6 years in UAE. ",
+    "form-h": "Let’s Make Your Move Easy!",
+    "name": "your name",
+    "phone": "phone number",
+    "address": "your address",
+    "service": "service",
+    "message": "your message",
+    "box11": "24/7",
+    "box12": "Customer Support",
+    "box21": "800+",
+    "box22": "Clients Reviews"
+  },
+  "buttons": {
+    "View More": "View More",
+    "Contact Us": "Contact Us",
+    "Service Detail": "Service Details",
+    "Know More": "Know More",
+    "Pricing List": "Pricing List",
+    "Send Now": "Send Now",
+    "Our Services": "Our Services",
+    "call now": "Call Now",
+    "pricing": "Pricing List",
+    "contact-now": "Contact Now"
+  },
+  "BrandingContent": {
+    "title": "Professional Home And Office Relocation Company",
+    "description": "Our full-service options include local moving, long-distance moving, packing & storage services and specialty relocation solutions. We employ experts who are experienced in moving houses, office or commercial spaces so you can move effortlessly and have a convenient transition real quick.",
+    "one": "Best Moving Services",
+    "two": "No Hidden Charges",
+    "three": "Over 6+ Years Experience",
+    "four": "24 Hours Available",
+    "five": "Trusted by 800+ Clients",
+    "six": "Friendly Staff"
+  },
+  "services": {
+    "title": "Our Moving Services In UAE",
+    "description": "At Hamdan Movers and Packers, we offer a complete solution for all your moving needs. With over 6 years of experience, we provide reliable, efficient, and tailored services to meet every client’s unique requirements.",
+    "local": {
+      "title": "Local Moving Services",
+      "desc": "Our local moving services ensure a smooth, quick, and reliable transition within your city or town, using local expertise for a hassle-free move."
+    },
+    "commercial": {
+      "title": "Commercial Moving Services",
+      "desc": "We handle every detail of your office relocation, minimizing downtime and ensuring a smooth, efficient commercial move."
+    },
+    "packing": {
+      "title": "Packing and Unpacking",
+      "desc": "Our expert team offers secure and reliable packing and careful unpacking, guaranteeing a stress-free moving experience for your belongings."
+    },
+    "storage": {
+      "title": "Storage Solutions",
+      "desc": "Our climate-controlled storage solutions for clients provide safe, flexible short-term or long-term storage during your transition and moving."
+    },
+    "specialty": {
+      "title": "Specialty Moving Services",
+      "desc": "We specialize in moving valuable items like pianos, antiques, and artwork, treating each piece with utmost care and professionalism."
+    },
+    "international": {
+      "title": "International Moving Services",
+      "desc": "We make international moves to Gulf countries stress-free, handling packing and customs paperwork to ensure a seamless process."
+    }
+  },
+  "otherMovingServices": {
+    "title": "Other Moving Services",
+    "apartment": "Apartment Moving",
+    "villa": "Villa Moving",
+    "office": "Office Relocation",
+    "home": "Home Cleaning",
+    "furniture": "Furniture Cleaning"
+  },
+  "whyChooseUs": {
+    "top": "WHY CHOOSE US",
+    "title": "We Are Professional Moving Company In UAE",
+    "description": "We're experts in helping people move in the UAE. Our team is made up of experienced professionals who know exactly what they're doing. We have all the latest equipment and technology to make your move as smooth as possible. We value your feedback and are always looking for ways to improve our services. Trust us to handle your move with care and efficiency.",
+    "years": "Years Of Experience",
+    "projects": "Projects Completed"
+  },
+  "pickup": {
+    "title": "Our Pickup Trucks For Rent Services In",
+    "SubTitle": "Fast, Flexible, And Convenient Pickup Trucks For Rental Service In",
+    "desc1": "Need a pickup truck to rent in the ",
+    "desc2": " We have many different sizes to choose from. We'll make sure you have a great experience. Whether you're moving things or carrying stuff, we're ready to help.",
+    "size": "We have following size of a Pickup Truck that is Appropriate for your needs.",
+    "one": {
+      "title": "1.5 Ton Pickup Truck For Rent in ",
+      "desc": "Need a pickup truck to move your home, office, or other belongings in the",
+      "desc2": "Our 1.5-ton pickup trucks are perfect for safe and easy transportation. We offer competitive rates and excellent service, so you can trust us to handle your move without any hassle"
+    },
+    "two": {
+      "title": "3 Ton Pickup Truck For Rent in",
+      "desc": "Need to move heavy cargo, relocate your home, or move your office in the",
+      "desc2": "Our 3-ton pickup trucks are the perfect solution. We offer a complete moving service, including loading and unloading, so you can relax and let us handle everything. Your belongings will arrive safely and on time."
+    }
+  },
+  "locations": {
+    "dubai": {
+      "title": "Moving Services In Dubai",
+      "desc": "Need a professional moving company in Dubai? Our experienced team specializes in residential and commercial relocations. We handle everything from packing and unpacking to furniture assembly and transportation. Whether you're moving across town or across the country, we'll make sure your move is smooth and stress-free."
+    },
+    "sharjah": {
+      "title": "Moving Services In Sharjah",
+      "desc": "Seeking dependable moving services in Sharjah? Our experienced team provides seamless residential and commercial relocations, featuring professional packing, furniture assembly, and safe transportation. Whether you‘re moving locally or long-distance, we guarantee a smooth, stress-free experience."
+    },
+    "ajman": {
+      "title": "Moving Services In Ajman",
+      "desc": "Seeking dependable moving services in Ajman? Our experienced team provides seamless residential and commercial relocations, featuring professional packing, furniture assembly, and safe transportation. Whether you‘re moving locally or long-distance, we guarantee a smooth, stress-free experience."
+    }
+  },
+  "workProcess": {
+    "heading": "Work Process",
+    "title": "Our Moving Process",
+    "one": {
+      "tit": "Book Your Service",
+      "desc": "Start with a quick call or an in-person chat. We’ll go over your moving needs and handle all the details to make it easy for you."
+    },
+    "two": {
+      "tit": "Before We Move",
+      "desc": "We’ll visit your place to assess what needs moving. This helps us plan packing and ensure a smooth moving day with no surprises."
+    },
+    "three": {
+      "tit": "The Move Plan",
+      "desc": "Once we’ve discussed your needs, we create a detailed plan for your move—covering timing, crew size, and costs—so everything runs smoothly."
+    },
+    "four": {
+      "tit": "Packing and Loading",
+      "desc": "Our team uses high-quality materials to pack your items securely. We carefully load everything onto our trucks to ensure your belongings stay safe during the move."
+    },
+    "five": {
+      "tit": "Safe Transportation",
+      "desc": "Safety is our priority. Our experienced drivers choose the best routes, and our trucks are thoroughly inspected for a smooth, secure move."
+    },
+    "six": {
+      "tit": "Unpacking and Settling-in",
+      "desc": "We’ll unpack your belongings and help set everything up just the way you like it, ensuring you feel at home before we leave."
+    }
+  },
+  "pricingContent": {
+    "top": "Our Pricing",
+    "title": "Affordable and Clear Moving Prices",
+    "desc": "At Hamdan Movers and Packers, we ensure transparency with no hidden fees, offering top-quality moving services at fair rates. Our team of trained professionals and efficient processes guarantee that every dollar spent brings you peace of mind and a seamless moving experience.",
+    "list": {
+      "title": "How We Calculate Moving Costs",
+      "desc": "We maintain open communication about all costs from the get-go, ensuring you won’t find any unexpected fees or charges on your final bill. It’s all about trust, and we aim to build that with every client.",
+      "sub-heading": "How We Price Our Moving Services",
+      "one": "Distance of the Move: The length of the journey directly affects the cost.",
+      "two": "Volume and Weight of Items: Larger or heavier loads require more effort and resources.",
+      "three": "Special Handling Requirements: Items needing special care, like fragile or valuable goods, impact pricing.",
+      "four": "Logistical Considerations: Access challenges, transportation, and other operational aspects are factored in.",
+      "five": "How careful consideration of these factors ensures an accurate and fair estimate.",
+      "six": "Reinforce the idea that the price reflects the true effort and resources dedicated to the move.",
+      "table-title": "Our Pricing List"
+    }
+  },
+  "content": {
+    "title": "Understanding Moving Prices and What Affects On Prices In",
+    "desc1": " When planning a move in the",
+    "desc2": "understanding what influences the cost can help you make informed decisions. Various factors, such as the distance of your move, the size and weight of your belongings, and any special handling requirements, all contribute to the final price. Additionally, aspects like the number of movers needed, the type of vehicle required, and the complexity of the move (e.g., stairs, narrow streets) can impact the cost. By knowing these factors upfront, you can better budget for your move and avoid unexpected fees.",
+
+    "sub1": "Factors Affecting the Cost",
+    "sub-desc1": "The cost of moving is far from a one-size-fits-all solution. It fluctuates based on several key factors, including the number of items, their weight, and whether any special handling is required. Even the date of your move can influence the price. Additionally, movers with a strong reputation, particularly in areas like Sharjah, may charge a premium, but this often reflects the high-quality service they provide.",
+
+    "sub2": "Additional Services and Their Charges",
+    "sub-desc2": "Beyond the basic moving service, there are additional options to consider, such as packing, storage, and furniture assembly, each of which comes with an extra cost. Specialized packing materials for fragile or valuable items can also increase the total. These add-ons provide convenience but should be factored into your overall budget.",
+    "sub2-sub-title": "Common Additional Services",
+    "sub2-li1": {
+      "title": "Packing Supplies:",
+      "desc": "Many moving companies offer packing supplies like boxes, bubble wrap, and tape for purchase."
+    },
+    "sub2-li2": {
+      "title": "Packing Services:",
+      "desc": "Some companies provide professional packing services, which can save you time and effort."
+    },
+    "sub2-li3": {
+      "title": "Disassembly and Assembly:",
+      "desc": "For furniture and appliances that require disassembly and assembly, additional fees may apply."
+    },
+    "sub2-li4": {
+      "title": "Storage:",
+      "desc": "If you need to store your belongings temporarily, moving companies like us often offer storage solutions."
+    },
+    "sub2-li5": {
+      "title": "Piano Moving:",
+      "desc": "Moving pianos is a specialized task and may incur additional charges."
+    },
+    "sub2-li6": {
+      "title": "Pool Table Moving:",
+      "desc": "Similar to pianos, moving pool tables requires special handling and may be more expensive."
+    },
+    "sub2-li7": {
+      "title": "Hazardous Materials Handling:",
+      "desc": "If you have hazardous materials, such as chemicals or flammable substances, there may be specific regulations and additional fees."
+    },
+    "sub2-sub-title2": "Factors Affecting Charges",
+    "sub2-li8": {
+      "title": "Volume of Items:",
+      "desc": "The more items you need packed or stored, the higher the cost."
+    },
+    "sub2-li9": {
+      "title": "Type of Items:",
+      "desc": "Fragile or oversized items may require additional care and increase the cost."
+    },
+    "sub2-li10": {
+      "title": "Distance:",
+      "desc": " The distance between your origin and destination can affect the overall cost of additional services."
+    },
+    "sub2-li11": {
+      "title": "Moving Company Policies:",
+      "desc": "  Different companies may have varying rates and policies for additional services."
+    },
+
+    "sub3": "How Distance and Size of Move Impact Cost",
+    "sub-desc3-1": "In simple terms, the farther you move and the more belongings you have, the higher the cost. Relocating across",
+    "sub-desc3-2": "will typically be more expensive than a move within the same neighborhood. Likewise, moving a four-bedroom  house will cost significantly more than shifting a studio apartment. The scale and distance of the move directly impact the overall price.",
+
+    "sub4": "Ways to Get the Best Value for Your Money",
+    "sub-desc4": " While price is important, value is what truly matters. To maximize your investment, it&apos;s wise to gather multiple quotes from different movers. Compare not only the prices but also the services they offer. Take the time to read reviews and see which company provides the best balance of cost and quality. Also, staying flexible with your moving dates can often help you secure a better deal."
+  },
+  "table": {
+    "heading1": "Size",
+    "heading2": "Trucks Required",
+    "heading4": "Cost",
+    "row1": {
+      "one": "Studio apartment",
+      "two": "1 BHK",
+      "three": "2 BHK",
+      "four": "3 BHK",
+      "five": "4 BHK",
+      "six": "2 Bedroom Villa",
+      "seven": "3 Bedroom Villa",
+      "eight": "4 Bedroom Villa"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Client's Said",
+    "key1": "Your Requirement Is Our Wish",
+    "key2": "Safe & Secure Move",
+    "key3": "Moving Is Quick & Easy",
+    "key4": "Moving Is Quick & Easy",
+    "key5": "Delivery On Time",
+    "key6": "We Are Affordable",
+    "key7": "Transporting Goods"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "desc": "Ready to make your move? Contact Hamdan and Packers today!",
+    "address": "مكتب رقم 3-064M، مبنى الملك سعيد ماجد الشامسي، شارع الزهراء، النصرية",
+    "office": "Office",
+    "phone": "Phone",
+    "email": "Email",
+    "openinghour": "Opening Hours",
+    "hours": "Open 24 Hours"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "one": {
+      "ques": "What payment methods do you accept?",
+      "ans": "We accept various payment methods, including cash, credit card, and online bank transfers. Payment can be made before or after the completion of services as per the terms agreed upon."
+    },
+    "two": {
+      "ques": "How can I book a moving service?",
+      "ans": "You can easily book any of our services through our website by clicking the Book Now button on the relevant service page, or you can contact us directly via phone or email."
+    },
+    "three": {
+      "ques": "What areas do you cover for moving services?",
+      "ans": "We provide local moving services within Sharjah and Dubai, along with international moving services to Gulf countries. Our team is equipped to handle moves within the UAE and beyond."
+    },
+    "four": {
+      "ques": "What is included in your commercial moving service?",
+      "ans": "Our commercial moving services cover every aspect of office relocation, including disassembly, packing, transportation, and reassembly at the new location. We focus on minimizing downtime to ensure a smooth transition for your business."
+    },
+    "five": {
+      "ques": "Do you provide storage solutions?",
+      "ans": "Yes, we offer flexible short-term and long-term storage options in climate-controlled units to keep your items safe during the transition or for longer durations as needed."
+    },
+    "six": {
+      "ques": "Can you handle international moves?",
+      "ans": "Yes, we provide international moving services, especially to Gulf countries. This includes packing, customs paperwork, and transportation to ensure a seamless international relocation."
+    },
+    "seven": {
+      "ques": "Do you offer cleaning services?",
+      "ans": "Yes, we offer home cleaning and furniture cleaning services to ensure your space is spotless before or after a move. Our professional team uses high-quality products to leave your home or furniture in top condition."
+    }
+  },
+  "navitems": {
+    "address": "Office No. 3-064M, King Saeed Majid Al Shamsi Building, Al Zahra Street, Al Nasiriyah",
+    "home": "Home",
+    "service": "Services",
+    "rent-services": "Rent Services",
+    "moving-locations": "Moving Locations",
+    "about-us": "About Us",
+    "contact-us": "Contact Us",
+    "services-sub": {
+      "local": "Local Moving",
+      "commercial": "Commerical Moving",
+      "packing": "Packing and Unpacking",
+      "storage": "Storage Solutions",
+      "specialty": "Specialty Moving",
+      "international": "International Moving"
+    },
+    "sub-menu-all": {
+      "dubai": "Dubai",
+      "sharjah": "Sharjah",
+      "ajman": "Ajman"
+    }
+  },
+  "service": {
+    "title": "Professional Moving and Packing Services In UAE",
+    "sub": "Your Trusted Partner for a Stress Free Moving",
+    "desc": "Hamdan Movers & Packers helps you move easily within the UAE. We pack your things carefully, transport them safely, and unpack them at your new home. We can help with both local and international moves. Trust us for a stress-free relocation."
+  },
+  "service-process": {
+    "one": {
+      "title": "Pre-Move Consultation",
+      "desc": "Start your move with a personalized consultation. We assess your needs, address challenges, and provide a clear moving plan with a detailed estimate, ensuring no surprises."
+    },
+    "two": {
+      "title": "Packing and Preparation",
+      "desc": "Our expert packers carefully handle and protect your items for the journey. Using top-quality packing materials and efficient techniques, we ensure everything is securely packed and ready for a smooth move."
+    },
+    "three": {
+      "title": "The Move",
+      "desc": "Our experienced moving team carefully loads your belongings into our trucks and ensures each item is handled with care throughout the entire journey, delivering everything safely to your new home"
+    },
+    "four": {
+      "title": "Unpacking and Settling In",
+      "desc": "Upon arrival at your new home, we'll assist with unpacking and setting up your space, ensuring everything is placed according to your preferences for a smooth transition and immediate comfort."
+    }
+  },
+  "benifits": {
+    "title": "Benefits You Get When You Use Our Services",
+    "desc1": "We offers comprehensive moving services across the",
+    "desc2": "including local and long-distance moves, packing, specialized handling, and custom crating. We handle residential, commercial, and emergency relocations for a seamless, stress-free experience.",
+    "one": {
+      "title": "Affordable Pricing",
+      "desc": "Competitive rates to fit any budget without compromising on quality."
+    },
+    "two": {
+      "title": "Reliable Service",
+      "desc": "Trust us for dependable, top-notch moving solutions every time."
+    },
+    "three": {
+      "title": "Detailed Planning",
+      "desc": "Every aspect of your move is meticulously organized for efficiency."
+    },
+    "four": {
+      "title": "Trained Team",
+      "desc": "Our skilled professionals handle your belongings with utmost care."
+    }
+  },
+  "local": {
+    "title": "Local Residentail Movers In UAE",
+    "sub": "Efficient Apartment and House Moving Services in UAE",
+    "desc": "At Hamdan Movers and Packers, we aim to be your top choice for local residential moving in UAE. We’re not just movers, we provide outstanding customer service for a stress-free relocation. Whether you're moving to a new home, villa, or apartment, trust us for a smooth and hassle-free experience.",
+    "part1": {
+      "title": "Residential Moving Experts in UAE",
+      "sm-desc": "Hamdan Movers and Packers provide a comprehensive range of services to handle every aspect of your move.",
+      "point1": "Professional Packing for Safe Moving",
+      "desc1": "Our expert packers and movers are trained to handle everything from large furniture to fragile heirlooms, ensuring your belongings are securely packed for safe transport across UAE.",
+      "point2": "Secure and Stress-Free Transport Across UAE",
+      "desc2": "On moving day, our team handles everything, loading your items onto our modern, well-maintained trucks and transporting them safely to your new home. We ensure careful handling and secure transport across UAE.",
+      "point3": "Professional Unpacking Solutions for a Smooth Move",
+      "desc3": "Upon arriving at your new home, we provide expert unloading and unpacking services to help you settle in quickly. Our goal is to transform your new residence into a comfortable and welcoming home."
+    },
+    "hire": {
+      "title": "Hire Us For Your's Local Residentail Moving In UAE",
+      "desc": "Choose us for reliable, efficient, and stress-free local residential moving services. Our expert team ensures safe handling of your belongings, from packing to transport, providing a seamless relocation experience within UAE.",
+      "key1": "Expertise in Local Residential Moving",
+      "key2": "Dedicated Service for Residential Moves"
+    }
+  },
+  "commerical": {
+    "title": "Commercial Office Moving Services in UAE",
+    "sub": "Expert Office Moving Services for a Smooth Business Transition in UAE",
+    "desc": "Hamdan Movers and Packers offer fully insured, 24/7 Office Moving Services in UAE. We provide customized relocation solutions with GPS-tracked fleets and handle Certificate of Insurance at no extra cost. With flexible scheduling and expertise in UAE’s unique moving challenges, we ensure a seamless, stress-free office move.",
+    "part1": {
+      "title": "Commercial Moving Experts in UAE",
+      "sm-desc": "Hamdan Movers and Packers provide a comprehensive range of services to handle every aspect of your move.",
+      "point1": "Experienced and Professional Team",
+      "desc1": "At Hamdan Movers and Packers, our expert team ensures smooth, professional office moves of any size. With years of experience, our skilled packers and drivers handle every detail with care, providing top-quality Office Moving Services.",
+      "point2": "Customized Moving Plans",
+      "desc2": "Our flexible Office Moving Service is tailored to meet your unique needs. Whether relocating a small office locally or a large corporate office across regions, our friendly team works with you to create a customized moving plan that fits your timeline.",
+      "point3": "Professional Equipment and Furniture Moving Services",
+      "desc3": "Our Office Moving Service ensures the safe packing, transport, and setup of office equipment and furniture. Trained movers handle all items with care, ensuring they arrive and are ready for use at your new location.",
+      "point4": "Best Storage Solutions",
+      "desc4": "As part of our Office Moving Service, we provide secure short-term and long-term storage solutions for office items. Our safe, monitored storage facilities ensure your equipment and furniture are protected until ready for relocation.",
+      "point5": "Professional Unpacking Solutions for a Smooth Move",
+      "desc5": "Upon arriving at your new home, we provide expert unloading and unpacking services to help you settle in quickly. Our goal is to transform your new residence into a comfortable and welcoming home."
+    },
+    "hire": {
+      "title": "Hire Us For Your's Commercial  Office Moving In UAE",
+      "desc": "Choose us for professional and reliable commercial office moving services in the UAE. Our expert team ensures the safe handling of your office equipment and furniture, from packing to transport, providing a seamless and stress-free relocation experience within the UAE.",
+      "key1": "Expertise in Commercial Moving",
+      "key2": "Efficient Execution and Post-Move Support",
+      "key3": "Comprehensive Office Moving Services"
+    }
+  },
+  "packing": {
+    "title": "Professional Packing Services in UAE",
+    "sub": "Expert Packing Solutions for Safe and Secure Relocations Across the UAE",
+    "desc": "Hamdan Movers and Packers provide expert packing services across the UAE, ensuring your belongings are safely packed and arrive in perfect condition. Our skilled team uses high-quality materials and techniques, offering reliable packing solutions for both local and long-distance moves in UAE.",
+    "plus": {
+      "title": "Flexible Packing Services, Pack a Room or Your Whole Home",
+      "desc": "With Hamdan Movers and Packers, the choice is yours. We’ve got you covered whether you need us to handle a single room or your entire home. Common packing and unpacking services we offer include:",
+      "one": {
+        "bold": "Kitchen",
+        "cont": "Glassware, plates, cutlery, pots, and pans"
+      },
+      "two": {
+        "bold": "Living Room",
+        "cont": "TV, sound system, books, plants, decor, pillows, and curtains"
+      },
+      "three": {
+        "bold": "Walk-in Wardrobe",
+        "cont": "Clothing, shoes, jackets, and accessories"
+      },
+      "four": {
+        "bold": "Bedroom",
+        "cont": "Pillows, bed linen, children’s toys, and towels"
+      },
+      "five": {
+        "bold": "Entire Home",
+        "cont": "All rooms and their respective items"
+      }
+    },
+    "part1": {
+      "title": "Packing and Unpacking Experts in UAE",
+      "sm-desc": "Hamdan Movers and Packers provide a comprehensive range of services to handle every aspect of your move.",
+
+      "point1": "Experienced and Professional Team",
+      "desc1": "At Hamdan Movers and Packers, our expert team ensures smooth, professional office moves of any size. With years of experience, our skilled packers and drivers handle every detail with care, providing top-quality Packing and Unpacking Services.",
+
+      "point2": "Customized Moving Plans",
+      "desc2": "Our flexible Packing and Unpacking Service is tailored to meet your unique needs. Whether you need help packing a small room or unpacking a large office, our friendly team works with you to create a customized plan that fits your timeline and ensures a smooth transition.",
+
+      "point3": "Professional Equipment and Furniture Moving Services",
+      "desc3": "Our Packing and Unpacking Service ensures the safe handling and organization of your belongings. Whether packing up your entire office or unpacking at the new location, our trained professionals manage every detail with care, ensuring everything arrives and is set up ready for use."
+    },
+    "hire": {
+      "title": "Hire Us For Your's Packing/Unpacking Services In UAE",
+      "desc": "Choose us for reliable, efficient, and stress-free Packing and Unpacking services. Our expert team ensures safe handling of your belongings, from packing to transport, providing a seamless relocation experience within UAE.",
+      "key1": "Expertise in Packing/Unpacking",
+      "key2": "Efficient Execution and Post-Move Support",
+      "key3": "Comprehensive Office Packing Services"
+    }
+  },
+  "storage": {
+    "title": "Best Storage Services in UAE",
+    "sub": "Secure, Climate-Controlled Storage Solutions | Short and Long-Term Options",
+    "desc": "Need secure, climate-controlled storage? Our clean, air-conditioned units protect your belongings from damage, whether for short or long-term storage. Ideal for moving, downsizing, or extra space, with 24/7 monitoring and easy access for peace of mind",
+    "plus": {
+      "title": " We offer a variety of storage types",
+      "title2": "to meet your needs",
+      "desc": "At Hamdan Movers and Packer, we offer tailored storage solutions for personal items, office equipment, and even vehicles. From small units to large commercial spaces, our facilities meet all needs, including specialty storage for valuables.",
+      "one": {
+        "bold": "Short Term Storage",
+        "cont": " Need short-term storage for office equipment? Hamdan Movers offers secure, convenient solutions for renovations or  relocations. Store your items safely for days or weeks with  flexible options."
+      },
+      "two": {
+        "bold": "Long Term Storage",
+        "cont": "Need long-term storage for downsizing, seasonal items, or  documents? Hamdan Movers offers secure, flexible storage  solutions for extended durations, keeping your belongings safe for as long as needed."
+      },
+      "three": {
+        "bold": " Residential Storage",
+        "cont": "Need more space in UAE? Hamdan Movers offers secure residential  storage for home improvements, decluttering, or moving. Our  accessible, secure units keep your belongings safe and protected."
+      },
+      "four": {
+        "bold": "Commercial Storage",
+        "cont": "Businesses in need of extra space? Hamdan Movers offers flexible commercial storage for surplus inventory, office furniture, and important documents. Our solutions help optimize your workspace and improve efficiency."
+      }
+    },
+    "part1": {
+      "title": "Why Choose Our Storage Services In UAE",
+      "sm-desc": "With years of experience, Hamdan Movers ensures safe and efficient storage for all your items. Trust us for reliable, professional service.",
+
+      "point1": "Proven Experience and Expertise",
+      "desc1": "We have years of industry experience, making us a reliable partner for your storage needs. Our team of professionals is adept at handling a wide array of items, ensuring they are stored safely and efficiently.",
+
+      "point2": "Competitive and Affordable Pricing",
+      "desc2": "We believe that top-notch storage services should be accessible to all. With that in mind, we’ve structured our pricing to be competitive and transparent, providing excellent value to our customers.",
+
+      "point3": "Dedicated Customer Service",
+      "desc3": "Customer service is at the heart of our operations. Our team is dedicated to providing you with a seamless storage experience. From the moment you get in touch with us, to the time you collect your stored items, we are with you every step of the way.",
+      "point4": "Best Storage Solutions",
+      "desc4": "As part of our Office Moving Service, we provide secure short-term and long-term storage solutions for office items. Our safe, monitored storage facilities ensure your equipment and furniture are protected until ready for relocation."
+    },
+    "hire": {
+      "title": "Hire Us For Your's Storage Services In UAE",
+      "desc": "Choose us for reliable, efficient, and stress-free Storage services. Our expert team ensures safe handling of your belongings, from packing to transport, providing a seamless storage experience within UAE.",
+      "key1": "Secure, Climate-Controlled Storage Facilities",
+      "key2": "Comprehensive Packing and Unpacking Services",
+      "key3": "Friendly, Expert Staff Ready to Assist"
+    }
+  },
+  "speciality": {
+    "title": "Expert Moving Solutions for Specialized Items in UAE",
+    "sub": "Professional Specialty Movers for Unique Items in the UAE",
+    "desc": "Specialty moving requires expert care for fragile, valuable, or bulky items. Hamdan Movers ensures safe transport for everything from art to pianos with professional handling and the right equipment. Trust us to protect your valuables during the move",
+    "plus": {
+      "title": "Types of Specialty Moving Service",
+      "title2": "We Offer In UAE",
+      "desc": "Hamdan Movers expertly handles art, antiques, pianos, pool tables, and specialty appliances. With custom packing, advanced equipment, and trained movers, we ensure safe, damage-free transport. Custom crating and packing services available for extra protection.",
+      "one": {
+        "bold": " Art and Antique Moving",
+        "cont": "At Hamdan Movers, we expertly handle art and antiques with precision and care. Using specialized packing materials and  techniques, we ensure your valuable pieces are protected and safely transported."
+      },
+      "two": {
+        "bold": "Piano Moving",
+        "cont": "Pianos are delicate and require expert handling. Our specialized equipment and skilled movers ensure your piano is safely transported and arrives in perfect condition."
+      },
+      "three": {
+        "bold": "Crating & Packing Services",
+        "cont": "Moving specialty appliances like wine coolers and commercial refrigerators requires expert care. Hamdan Movers ensures safe transport of sensitive items, keeping them in top condition throughout the move."
+      },
+      "four": {
+        "bold": "Specialty Appliance Moving",
+        "cont": "Need extra protection? Our custom crating and packing services provide tailored solutions for your items, ensuring maximum security and reducing the risk of damage during transit."
+      }
+    },
+    "part1": {
+      "title": "Speciality Moving Experts in UAE",
+      "sm-desc": "Hamdan Movers and Packers provide a comprehensive range of services to handle every aspect of your move.",
+
+      "point1": "Experienced Team",
+      "desc1": "Our team has extensive experience in specialty moves, from delicate antiques to heavy pianos. We ensure every item is handled with expert care, using specialized techniques for safe and secure transport.",
+
+      "point2": "Advanced Equipment",
+      "desc2": "We use top-tier equipment, including custom crates and padded blankets, to protect your belongings. Our advanced tools minimize damage risk and ensure secure transport for items of all shapes and sizes.",
+
+      "point3": "Personalized Service",
+      "desc3": "Every move is unique, and we offer personalized solutions to meet your specific needs. From start to finish, we provide a seamless, stress-free experience, ensuring every detail is tailored to your requirements.",
+      "point4": "Comprehensive Insurance",
+      "desc4": "As part of our Speciality Moving, we provide secure short-term and long-term storage solutions for office items. Our safe, monitored storage facilities ensure your equipment and furniture are protected until ready for relocation.",
+      "point5": "Trusted and Secure",
+      "desc5": "With a reputation for trust and security, we handle every specialty move with precision and care. You can count on us to transport your valuable items safely and securely, ensuring a smooth experience."
+    },
+    "hire": {
+      "title": "Hire Us For Your's Speciality Moving In UAE",
+      "desc": "Choose us for reliable, efficient, and stress-free local Speciality Moving. Our expert team ensures safe handling of your belongings, from packing to transport, providing a seamless Speciality Moving experience within UAE.",
+      "key1": "Art and Antique Moving",
+      "key2": "Piano Moving",
+      "key3": "Pool Table Moving and many more.."
+    }
+  },
+  "international": {
+    "title": "International Moving Services in UAE",
+    "sub": "Safe and Timely International Deliveries From UAE to anywhere in the world",
+    "desc": "International moving made easy with Hamdan Movers. Our expert team handles packing, shipping, customs, and door-to-door delivery, ensuring a smooth, stress-free experience. Trust us for seamless, professional service on your move abroad.",
+    "part1": {
+      "title": "International Moving Experts in UAE",
+      "sm-desc": "Hamdan Movers and Packers provide a comprehensive range of services to handle every aspect of your move.",
+
+      "point1": "Cheap International Movers",
+      "desc1": "We provides budget-friendly, reliable services tailored to your needs. From expert packing and shipping to seamless customs clearance, we ensure your belongings are safely transported. Enjoy a smooth, stress-free international move with our experienced team by your side.",
+
+      "point2": "Customized Moving Plans",
+      "desc2": "International moving with Hamdan Movers is designed to fit your unique needs. Whether relocating across borders or overseas, our expert team creates a customized moving plan, handling everything from packing to delivery. Enjoy a seamless, stress-free move with our reliable service.",
+
+      "point3": "Personal Coordinator",
+      "desc3": "We provides expert Customs Clearance services for international moves. We handle all paperwork, regulations, and legal requirements to ensure your belongings pass through customs smoothly and without delays, making your move hassle-free and efficient.",
+
+      "point4": "Expert Logistics and Shipping for International Moves",
+      "desc4": "Reliable logistics and shipping are key to a smooth international move. Hamdan Movers offers global tracking, air and sea freight options, and expert handling of all necessary documentation for a hassle-free experience."
+    },
+    "hire": {
+      "title": "Hire Us For Your's International Moving In UAE",
+      "desc": "Start your international journey with ease. Hamdan Movers provides professional, stress-free moving services. Contact us today for a personalized quote and expert assistance for a smooth, hassle-free move.",
+      "key1": "Expertise in International Moving",
+      "key2": "Efficient Execution and Post-Move Support",
+      "key3": "Comprehensive International Moving Services"
+    },
+    "pricing": {
+      "title": "Cost of International Moving in UAE",
+      "desc": "International moving costs in the UAE vary from AED 7,000 to AED 30,000, depending on factors like destination, item volume, and services needed. Costs are influenced by transport method (air or sea), distance, and additional services like packing or storage. For an accurate estimate, request a detailed quote tailored to your needs."
+    }
+  },
+  "pickup-trucks": {
+    "title": "Cheap Pickup Truck Rental In UAE",
+    "sub": "Pickup Truck Rentals for Business and Personal Use in UAE",
+    "desc": "Looking for reliable pickup rental services in UAE? Look no further! We offer a versatile fleet of pickups to meet all your transportation needs. Whether you need to move goods, transport items, or handle logistics, our pickup trucks provide a hassle-free and efficient solution tailored for every task.",
+    "part1": {
+      "title": "Professional and affordable car for rental in UAE",
+      "desc": "Hamdan Movers offers affordable 24/7 pickup rental services in Dubai, specializing in fast and efficient home, office, and furniture relocations. With a versatile fleet, we provide reliable transport for both light and heavy materials, ensuring seamless and affordable moves.",
+      "point1": "Certified Pickup Truck Rental In UAE",
+      "desc1": "Meeting our client's needs is paramount to our success. We hold certifications recognized globally within the industry, ensuring top-notch service for pickup rental trucks in UAE.",
+      "point2": "Dedicated Customer Care",
+      "desc2": "Our dedicated customer support team, made up of industry professionals, listens attentively to all client feedback with empathy and understanding. Additionally, we maintain open lines of communication for ongoing support with pickup rental in UAE.",
+      "point3": "Prioritizing Safety",
+      "desc3": "From regularly maintaining our vehicles to providing training for our drivers, we take proactive measures to minimize risks and keep our customers and their belongings safe throughout the travel.",
+      "point4": "Satisfaction Guaranteed",
+      "desc4": "We are dedicated to meeting customers' expectations with personalized and dependable services. We aim to provide a seamless, hassle-free experience, ensuring every customer feels content and assured in their choice of our services.",
+      "truckdesc": "Explore a variety of car sizes available for rental in the UAE, tailored to suit your travel needs, from compact cars to luxury SUVs.",
+      "truck-desc1": "Need reliable transportation for home, office, or goods relocation? Rent our 1.5 ton pickup truck in UAE for safe, easy, and hassle-free moves. With competitive pricing and top-notch  service, we ensure your items are transported smoothly every time.",
+      "truck-desc-2": " For seamless transportation of heavy cargo, home relocations, or office moves, rent our 3 ton pickup in UAE. We offer comprehensive services, including loading and unloading,  ensuring stress-free and secure delivery of your belongings to their destination."
+    },
+    "hire": "Why Choose Our 1.5 / 3 Ton Pickup Trucks For Rent",
+    "hire-desc": "Rent a 1.5 / 3 ton pickup truck for versatile, cost-effective transport of furniture, materials, and more. Enjoy convenience and reliability with well-maintained vehicles from a trusted provider in UAE",
+    "key1": "Flexibility: Handles various transportation needs",
+    "key2": "Budget-Friendly: Saves money and resources",
+    "key3": "Ease of Use: Simple and hassle-free",
+    "key4": "Trustworthiness: Dependable for every task"
+  },
+  "pickup-dubai": {
+    "title": "Cheap Pickup Truck Rental In Dubai",
+    "sub": " Affordable Pickup Truck Rentals for Business and Personal Use in Dubai",
+    "desc": " Searching for dependable pickup truck rental services in Dubai? Your solution is here! We provide a versatile fleet of pickup trucks to meet all your transportation needs. Whether it&lsquo;s  moving goods, transporting items, or managing logistics, our  pickups offer an efficient and hassle-free solution tailored to  every job.",
+    "part1": {
+      "title": "Reliable Car Rental Services, Dubai's Top Provider",
+      "desc": "We have trucks for all your moving needs. Whether you're moving a small apartment or a big office, we can help you move it all.",
+      "point1": "Certified Pickup Truck Rental In Dubai",
+      "desc1": "We're passionate about making your move easier. That's why we offer the best pickup truck rentals in Dubai. Our trucks are top-notch, and our service is even better. We're always here to help, whether you need help with your move or just want to rent a truck for the day. Choose us, and you'll see why we're the best in the business.",
+      "point2": "Personalized Customer Care Solutions for Pickup Rentals",
+      "desc2": "Our dedicated customer support team, consisting of industry experts, attentively listens to client feedback with empathy and understanding. We maintain open lines of communication for ongoing assistance with pickup truck rentals in Dubai, ensuring you receive the support you need at every step.",
+      "point3": "Safety First: Secure Pickup Truck Rentals in Dubai",
+      "desc3": "We prioritize safety in our pickup truck rental services by implementing proactive measures to minimize risks. Through regular vehicle maintenance and thorough driver training, we ensure the safety of our customers and their belongings throughout every journey in Dubai.",
+      "point4": "100% Satisfaction Guarantee on Pickup Truck Rentals",
+      "desc4": "We are committed to exceeding customer expectations with our personalized and reliable pickup truck rental services. Our aim is to provide a seamless, hassle-free experience, ensuring that every customer feels satisfied and confident in choosing us for their transportation needs.",
+      "truckdesc": "We Offer Various Car Sizes for Rental Services in Dubai: Choose from our 1.5-ton and 3-ton pickup trucks, ideal for all your transportation needs.",
+      "truck-desc1": "Need reliable transportation for home, office, or goods relocation in Dubai? Rent our 1.5-ton pickup truck for safe, easy, and hassle-free moves. With competitive pricing and  top-notch service, we ensure your items are transported smoothly every time.",
+      "truck-desc-2": " For seamless transportation of heavy cargo, home relocations, or office moves in Dubai, rent our 3-ton pickup truck. We provide comprehensive services, including loading and unloading, ensuring a stress-free and secure delivery of your belongings to their destination."
+    },
+    "hire": "Why Choose Our 1.5 / 3 Ton Pickup Trucks For Rent",
+    "hire-desc": "Rent a 1.5 / 3 ton pickup truck for versatile, cost-effective transport of furniture, materials, and more. Enjoy convenience and reliability with well-maintained vehicles from a trusted provider in Dubai",
+    "key1": "Flexibility: Handles various transportation needs",
+    "key2": "Budget-Friendly: Saves money and resources",
+    "key3": "Ease of Use: Simple and hassle-free",
+    "key4": "Trustworthiness: Dependable for every task"
+  },
+  "pickup-sharjah": {
+    "title": "Cheap Pickup Truck Rental In Sharjah",
+    "sub": " Cheap Pickup Truck Rentals for Business and Personal Use in Sharjah",
+    "desc": "Looking for reliable pickup rental services in Sharjah? Look no further! We offer a versatile fleet of pickups to meet all your transportation needs. Whether you need to move goods, transport items, or handle logistics, our pickup trucks provide a hassle-free and efficient solution tailored for every task.",
+    "part1": {
+      "title": "Professional and affordable car for rental in Sharjah",
+      "desc": "Hamdan Movers offers affordable 24/7 pickup rental services in Dubai, specializing in fast and efficient home, office, and furniture relocations. With a versatile fleet, we provide reliable transport for both light and heavy materials, ensuring seamless and affordable moves.",
+      "point1": "Certified Pickup Truck Rental In Sharjah",
+      "desc1": "Meeting our client's needs is paramount to our success. We hold certifications recognized globally within the industry, ensuring top-notch service for pickup rental trucks in Sharjah.",
+      "point2": "Dedicated Customer Care",
+      "desc2": "Our dedicated customer support team, made up of industry professionals, listens attentively to all client feedback with empathy and understanding. Additionally, we maintain open lines of communication for ongoing support with pickup rental in Sharjah.",
+      "point3": "Prioritizing Safety",
+      "desc3": "From regularly maintaining our vehicles to providing training for our drivers, we take proactive measures to minimize risks and keep our customers and their belongings safe throughout the travel.",
+      "point4": "Satisfaction Guaranteed",
+      "desc4": "We are dedicated to meeting customers' expectations with personalized and dependable services. We aim to provide a seamless, hassle-free experience, ensuring every customer feels content and assured in their choice of our services.",
+      "truckdesc": "Explore a variety of car sizes available for rental in the Sharjah, tailored to suit your travel needs, from compact cars to luxury SUVs.",
+      "truck-desc1": "Need reliable transportation for home, office, or goods relocation? Rent our 1.5 ton pickup truck in Sharjah for safe, easy, and hassle-free moves. With competitive pricing and top-notch  service, we ensure your items are transported smoothly every time.",
+      "truck-desc-2": " For seamless transportation of heavy cargo, home relocations, or office moves, rent our 3 ton pickup in Sharjah. We offer comprehensive services, including loading and unloading,  ensuring stress-free and secure delivery of your belongings to their destination."
+    },
+    "hire": "Why Choose Our 1.5 / 3 Ton Pickup Trucks For Rent",
+    "hire-desc": "Rent a 1.5 / 3 ton pickup truck for versatile, cost-effective transport of furniture, materials, and more. Enjoy convenience and reliability with well-maintained vehicles from a trusted provider in Sharjah",
+    "key1": "Flexibility: Handles various transportation needs",
+    "key2": "Budget-Friendly: Saves money and resources",
+    "key3": "Ease of Use: Simple and hassle-free",
+    "key4": "Trustworthiness: Dependable for every task"
+  },
+  "pickup-ajman": {
+    "title": "Cheap Pickup Truck Rental In Ajman",
+    "sub": " Cheap Pickup Truck Rentals for Business and Personal Use in Ajman",
+    "desc": "Looking for reliable pickup rental services in Ajman? Look no further! We offer a versatile fleet of pickups to meet all your transportation needs. Whether you need to move goods, transport items, or handle logistics, our pickup trucks provide a hassle-free and efficient solution tailored for every task.",
+    "part1": {
+      "title": "Professional and affordable car for rental in Ajman",
+      "desc": "Hamdan Movers offers affordable 24/7 pickup rental services in Dubai, specializing in fast and efficient home, office, and furniture relocations. With a versatile fleet, we provide reliable transport for both light and heavy materials, ensuring seamless and affordable moves.",
+      "point1": "Certified Pickup Truck Rental In Ajman",
+      "desc1": "Meeting our client's needs is paramount to our success. We hold certifications recognized globally within the industry, ensuring top-notch service for pickup rental trucks in Ajman.",
+      "point2": "Dedicated Customer Care",
+      "desc2": "Our dedicated customer support team, made up of industry professionals, listens attentively to all client feedback with empathy and understanding. Additionally, we maintain open lines of communication for ongoing support with pickup rental in Ajman.",
+      "point3": "Prioritizing Safety",
+      "desc3": "From regularly maintaining our vehicles to providing training for our drivers, we take proactive measures to minimize risks and keep our customers and their belongings safe throughout the travel.",
+      "point4": "Satisfaction Guaranteed",
+      "desc4": "We are dedicated to meeting customers' expectations with personalized and dependable services. We aim to provide a seamless, hassle-free experience, ensuring every customer feels content and assured in their choice of our services.",
+      "truckdesc": "Explore a variety of car sizes available for rental in the Ajman, tailored to suit your travel needs, from compact cars to luxury SUVs.",
+      "truck-desc1": "Need reliable transportation for home, office, or goods relocation? Rent our 1.5 ton pickup truck in Ajman for safe, easy, and hassle-free moves. With competitive pricing and top-notch  service, we ensure your items are transported smoothly every time.",
+      "truck-desc-2": " For seamless transportation of heavy cargo, home relocations, or office moves, rent our 3 ton pickup in Ajman. We offer comprehensive services, including loading and unloading,  ensuring stress-free and secure delivery of your belongings to their destination."
+    },
+    "hire": "Why Choose Our 1.5 / 3 Ton Pickup Trucks For Rent",
+    "hire-desc": "Rent a 1.5 / 3 ton pickup truck for versatile, cost-effective transport of furniture, materials, and more. Enjoy convenience and reliability with well-maintained vehicles from a trusted provider in Ajman",
+    "key1": "Flexibility: Handles various transportation needs",
+    "key2": "Budget-Friendly: Saves money and resources",
+    "key3": "Ease of Use: Simple and hassle-free",
+    "key4": "Trustworthiness: Dependable for every task"
+  },
+  "moving-locations": {
+    "title": "Professional Moving Services In UAE",
+    "sub": "We provide our best moving services in Dubai, Sharjah, Ajman and its surrounding areas.",
+    "desc": "We provide reliable moving services across Dubai, Sharjah, Ajman, and the surrounding areas. Our goal is to make your move as smooth and stress-free as possible. With a skilled team and the right equipment, we handle every aspect of your move, whether it’s for your home or business.",
+    "hire": {
+      "title": "Choose Best Moving Company In Your Location",
+      "desc": "Find the best moving company near you with ease. Explore top-rated local movers, compare services, and get hassle-free relocation. Whether it's a residential or commercial move, discover trusted professionals for a smooth, secure, and stress-free experience. Get quotes and expert guidance for your next move today!",
+      "key1": "Residential and Commercial Moving",
+      "key2": "Easily Available In Your's Locations"
+    }
+  },
+  "moving-dubai": {
+    "city": "Dubai",
+    "title": "Best Movers And Packers In Dubai",
+    "sub": "Cheap Moving and Packing Company In Dubai",
+    "desc": "Hamdan Movers and Packers delivers top-quality moving solutions across the Dubai for 6 years. Our full-service options cover local moving, long-distance moving, packing &amp; storage, and specialty relocation. Our team of experienced experts ensures a seamless move for houses, offices, or commercial spaces, making your transition quick and hassle-free.",
+    "ser-title": "Moving and Packing Services | Dubai",
+    "hire": {
+      "title": "Choose Best Moving Company In Dubai",
+      "desc": "Find the best moving company near you with ease. Explore top-rated local movers, compare services, and get hassle-free relocation. Whether it's a residential or commercial move, discover trusted professionals for a smooth, secure, and stress-free experience. Get quotes and expert guidance for your next move today!",
+      "key1": "Residential and Commercial Moving in Dubai",
+      "key2": "Easily Available In Dubai"
+    }
+  },
+  "moving-sharjah": {
+    "city": "Sharjah",
+    "title": "Best Movers And Packers In Sharjah",
+    "sub": "Cheap Moving and Packing Company In Sharjah",
+    "desc": "Hamdan Movers and Packers delivers top-quality moving solutions across the Sharjah for 6 years. Our full-service options cover local moving, long-distance moving, packing &amp; storage, and specialty relocation. Our team of experienced experts ensures a seamless move for houses, offices, or commercial spaces, making your transition quick and hassle-free.",
+    "ser-title": "Moving and Packing Services | Sharjah",
+    "hire": {
+      "title": "Choose Best Moving Company In Sharjah",
+      "desc": "Find the best moving company near you with ease. Explore top-rated local movers, compare services, and get hassle-free relocation. Whether it's a residential or commercial move, discover trusted professionals for a smooth, secure, and stress-free experience. Get quotes and expert guidance for your next move today!",
+      "key1": "Residential and Commercial Moving in Sharjah",
+      "key2": "Easily Available In Sharjah"
+    }
+  },
+  "moving-ajman": {
+    "city": "Ajman",
+    "title": "Best Movers And Packers In Ajman",
+    "sub": "Cheap Moving and Packing Company In Ajman",
+    "desc": "Hamdan Movers and Packers delivers top-quality moving solutions across the Ajman for 6 years. Our full-service options cover local moving, long-distance moving, packing &amp; storage, and specialty relocation. Our team of experienced experts ensures a seamless move for houses, offices, or commercial spaces, making your transition quick and hassle-free.",
+    "ser-title": "Moving and Packing Services | Ajman",
+    "hire": {
+      "title": "Choose Best Moving Company In Ajman",
+      "desc": "Find the best moving company near you with ease. Explore top-rated local movers, compare services, and get hassle-free relocation. Whether it's a residential or commercial move, discover trusted professionals for a smooth, secure, and stress-free experience. Get quotes and expert guidance for your next move today!",
+      "key1": "Residential and Commercial Moving in Ajman",
+      "key2": "Easily Available In Ajman"
+    }
+  },
+  "about us": {
+    "title": "About Us",
+    "sub": "Professional Moving Solutions for Dubai, Sharjah, and Ajman Residents.",
+    "desc": "We are trusted movers in Dubai for safe and reliable moving services. Whether it's a local or international move, we handle everything from cars to pianos with care, ensuring your belongings arrive on time and without damage",
+    "key1": "Professional team for efficient packing",
+    "key2": "Trusted by clients in Dubai, Sharjah, Ajman",
+    "key3": "Dedicated to quality service delivery",
+    "key4": "Focus on customer satisfaction",
+    "key5": "Corporate relocations and IT equipment moving",
+    "owner": {
+      "title": "About The Owner",
+      "name": "Ahmad Hussain",
+      "sub": "(CEO at Hamdan Movers and Packer)",
+      "desc": "As a owner of Hamdan Movers and Packer, My first duty is to provide seamless moving and logistics services that exceed customer expectations. My aims is to simplify the moving process, making it stress-free and efficient for every client. Our vision is to be the go-to moving and logistics partner in the UAE, recognized for our reliability, professionalism, and customer-centric approach."
+    }
+  },
+  "contact-p": {
+    "title": "Contact Us",
+    "sub": "To Make Your Move Meaningful"
+  },
+  "meta-home": {
+    "title": "Best Movers in Dubai, UAE | Movers and Packers",
+    "desc": "Hamdan Movers offers professional, reliable moving and packing services in UAE tailored to your needs. Contact us for a free quote and a seamless moving experience!",
+    "site-Info": {
+      "name": "Hamdan Movers",
+      "country": "United Arab Emirates",
+      "language": "en"
+    }
+  },
+  "meta-service": {
+    "title": "Local, Commercial, International Movers & Pickup Truck Rental in Dubai",
+    "desc": "Affordable moving services by local experts in Dubai. We offer cheap moving solutions, expert packing services, and pickup car rentals to make your move as cost-effective and smooth as possible.",
+    "site-Info": {
+      "name": "Hamdan Movers",
+      "country": "United Arab Emirates",
+      "language": "en"
+    }
+  },
+  "footer": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "location": "Services Locations",
+    "TandC": "Terms and Conditions",
+    "Pp": "Privacy Policy",
+    "cars": "Pickup Cars For Rent",
+    "dubai": "Dubai",
+    "sharjah": "Sharjah",
+    "ajman": "Ajman",
+    "md": "Movers in ",
+    "pickup": "Pickup Rent"
+  }
+}
