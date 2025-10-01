@@ -35,15 +35,15 @@ function Footer() {
       link: "/services/speciality-moving",
     },
     {
-      name: t("services-sub.international"),
-      link: "/services/international-moving",
+      name: "used furniture sharjah",
+      link: "https://rukunalaroobausedfurniture.ae",
     },
   ];
   return (
     <footer className="w-full mt-16 py-7 md:px-10 h-auto">
       <div className="grid md:grid-cols-3 grid-cols-1 gap-y-8">
         <div className="col-span-1">
-          <div className="w-40 h-24 relative bg-gray-200">
+          <div className="w-40 h-24 relative ">
             <Image
               alt="Hamdan Movers Logo"
               src={logo}

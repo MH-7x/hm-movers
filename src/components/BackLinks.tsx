@@ -1,6 +1,10 @@
+import { Link } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 import React from "react";
+import { Button } from "./ui/button";
 
 const BackLinks = () => {
+  const b = useTranslations("buttons");
   return (
     <section className="max-w-6xl my-20 mx-auto rounded-3xl bg-gradient-to-r from-green-100 to-green-50 px-6 py-16 text-center">
       <div className="relative m-auto max-w-xl">
@@ -134,12 +138,39 @@ const BackLinks = () => {
           target="_blank"
         >
           <img
-            src="https://internationalvanlines.com/wp-content/uploads/2025/05/seal.jpg"
+            src="/best-service.jpg"
             width="100"
             height="100"
             className="bg-blend-color-burn"
           />
         </a>
+      </div>
+      <div className="mt-5 bg-white p-8 rounded-3xl">
+        <p>
+          Looking For Quality{" "}
+          <a href="https://rukunalaroobausedfurniture.ae/">
+            Used Furniture in Sharjah
+          </a>
+          ? We are also{" "}
+          <a href="https://rukunalaroobausedfurniture.ae/used-furniture-buyers-in-dubai">
+            best used furniture buyers in dubai
+          </a>{" "}
+          and also{" "}
+          <a href="https://rukunalaroobausedfurniture.ae/used-furniture-buyers-in-sharjah">
+            {" "}
+            best used furniture buyers in sharjah
+          </a>
+          . contact us to{" "}
+          <a href="https://rukunalaroobausedfurniture.ae/used-furniture-buyers-in-dubai">
+            sell your furniture in dubai
+          </a>{" "}
+          or want to buy used furniture.
+        </p>
+        <Link href={"#pricingList"}>
+          <Button className="mt-5" variant={"light"}>
+            {b("Contact Us")}
+          </Button>
+        </Link>
       </div>
     </section>
   );

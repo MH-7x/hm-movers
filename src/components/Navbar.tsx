@@ -108,7 +108,6 @@ function Navbar() {
   const [location, setlocation] = useState(false);
   const [rental, setrental] = useState(false);
   useEffect(() => {
-    
     if (typeof window !== "undefined") {
       document.addEventListener("scroll", () => {
         if (window.scrollY > 30) {
@@ -140,7 +139,6 @@ function Navbar() {
             className="hidden transition-opacity info w-full md:px-10 md:flex justify-between items-center b-bg min-h-14 bg-red-200"
           >
             <div className="flex ">
-             
               <Link
                 href={"tel:+971566651978"}
                 className="text-white flex gap-x-1 items-center"
