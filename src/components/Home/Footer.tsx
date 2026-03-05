@@ -144,6 +144,9 @@ function Footer() {
               <Link href={"/pickup-rental-trucks-in-ajman/"}>
                 {b("pickup")} {b("ajman")}
               </Link>
+              <a href={"https://buyingusedfurnitureuae.com"}>
+                Buying Used Furniture Company
+              </a>
             </div>
           </div>
         </div>
