@@ -37,6 +37,28 @@ function Locations() {
               >
                 {t("dubai.desc")}
               </p>
+              {locale == "ar" ? (
+                <>
+                  <p className="text-right font-arabic ar-p">
+                    اتصل بالأفضل{" "}
+                    <a href="https://moversandpackersinuae.com/نقل-اثاث-دبي">
+                      نقل اثاث في دبي
+                    </a>{" "}
+                  </p>
+                </>
+              ) : (
+                <>
+                  {" "}
+                  <p>
+                    contact the{" "}
+                    <a href="https://moversandpackersinuae.com">
+                      best movers and packers in dubai, uae
+                    </a>{" "}
+                    .
+                  </p>
+                </>
+              )}
+
               <div
                 dir={locale === "ar" ? "rtl" : "ltr"}
                 className="flex gap-x-5 mt-5"
@@ -88,6 +110,14 @@ function Locations() {
               <p className={`md:mt-5 mt-3 ${locale === "ar" ? "ar-p" : ""}`}>
                 {t("sharjah.desc")}
               </p>
+
+              <p>
+                contact the{" "}
+                <a href="https://moversandpackersinuae.com/movers-and-packers-in-sharjah">
+                  sharjah&apos;s top-rated movers and packers
+                </a>{" "}
+                .
+              </p>
               <div className="flex gap-x-5 mt-5">
                 <Link href={"tel:+971566651978"}>
                   <Button dir="ltr">Call Now</Button>
@@ -117,6 +147,14 @@ function Locations() {
                 }`}
               >
                 {t("ajman.desc")}
+              </p>
+
+              <p>
+                contact the{" "}
+                <a href="https://moversandpackersinuae.com/movers-in-ajman">
+                  movers and packers in ajman
+                </a>{" "}
+                .
               </p>
               <div
                 dir={locale === "ar" ? "rtl" : "ltr"}

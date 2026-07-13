@@ -53,7 +53,9 @@ function Footer() {
             />
           </div>
           <h2 className="text-[28px] mt-3">Hamdan Movers and Packers</h2>
-          <p className="gr">UAE&lsquo;s No.1 Moving And Packing Company</p>
+          <a className="gr" href="https://moversandpackersinuae.com">
+            UAE&lsquo;s No.1 Moving And Packing Company
+          </a>
           <div className="flex gap-x-3 mt-5">
             <Link
               href={"https://facebook.com/profile.php?id=61566946484154&"}

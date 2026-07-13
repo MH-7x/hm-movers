@@ -257,6 +257,24 @@ function PerServiceSec() {
               </div>
             </div>
           </div>
+          <div className="col-span-full text-center flex flex-col items-center justify-center mt-5">
+            <p className="">
+              Looking for{" "}
+              <a href="https://moversandpackersinuae.com/movers-and-packers-in-dubai">
+                professional movers in dubai
+              </a>
+              , contact us today for{" "}
+              <a href="https://moversandpackersinuae.com/movers-and-packers-in-dubai">
+                moving and packing services in dubai
+              </a>{" "}
+              at affordable prices.
+            </p>
+            <Button className="mt-5" variant={"secondary"}>
+              <Link href={"/services-locations/movers-and-packers-dubai/"}>
+                {b("Contact Us")}
+              </Link>
+            </Button>
+          </div>
         </div>
         <ServiceHire
           title={t("hire")}
