@@ -179,7 +179,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     },
   };
 }
-function page() {
+function ServicesPage() {
   const locale = useLocale();
   return (
     <>
@@ -202,4 +202,4 @@ function page() {
   );
 }
 
-export default page;
+export default ServicesPage;
