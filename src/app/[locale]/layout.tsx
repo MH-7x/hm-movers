@@ -3,8 +3,8 @@ import { getMessages } from "next-intl/server";
 import { Poppins, Amiri, Playfair_Display } from "next/font/google";
 import type { Metadata } from "next";
 import "./globals.css";
-import Script from "next/script";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import GTM from "@/components/GTM";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -47,32 +47,8 @@ export default async function RootLayout({
 }>) {
   const messages = await getMessages();
   return (
-    <html lang={locale}>
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=G-YJFJVBXMC6`}
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-        window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-YJFJVBXMC6');
-      `}
-      </Script>
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=AW-16744321482"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics-tag-2" strategy="afterInteractive">
-        {`
-            window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-16744321482');
-          `}
-      </Script>
+    <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
+      <GTM />
       <body>
         <NextIntlClientProvider messages={messages}>
           <main

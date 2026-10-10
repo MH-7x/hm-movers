@@ -58,14 +58,22 @@ const BackLinks = () => {
 
         <h2 className="mt-4 font-dm-sans text-mobile-h3 font-semibold leading-snug sm:text-mobile-h2 md:text-desktop-h2">
           Contact With Best{" "}
-          <a href="https://abumuhammadmovers.com/" target="_blank">
+          <a
+            href="https://abumuhammadmovers.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Movers in Sharjah
           </a>
         </h2>
 
         <p className="mt-4 font-dm-sans text-desktop-paragraph text-slate-body">
           Looking for the{" "}
-          <a href="https://abumuhammadmovers.com/" target="_blank">
+          <a
+            href="https://abumuhammadmovers.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             movers and packers in Sharjah
           </a>
           , we are the best{" "}
@@ -124,9 +132,11 @@ const BackLinks = () => {
           href="https://abumuhammadmovers.com/"
           aria-label="best movers and packers in sharjah"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             src="https://d2c0db5b8fb27c1c9887-9b32efc83a6b298bb22e7a1df0837426.ssl.cf2.rackcdn.com/21120483-mark-terry-quality-business-awa-1000x1000.jpeg"
+            alt="Quality business award"
             width="105"
             height="105"
             className="bg-blend-color-burn"
@@ -136,9 +146,11 @@ const BackLinks = () => {
           href="https://abumuhammadmovers.com/"
           aria-label="moving company in sharjah"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             src="/best-service.jpg"
+            alt="Best moving service award"
             width="100"
             height="100"
             className="bg-blend-color-burn"

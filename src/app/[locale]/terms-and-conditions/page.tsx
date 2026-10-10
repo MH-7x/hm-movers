@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       languages: {
         ar: `${process.env.PUBLIC_URL}/ar/terms-and-conditions/`,
         en: `${process.env.PUBLIC_URL}/en/terms-and-conditions/`,
+        "x-default": `${process.env.PUBLIC_URL}/en/terms-and-conditions/`,
       },
     },
     openGraph: {

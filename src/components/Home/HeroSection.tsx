@@ -113,7 +113,7 @@ function HeroSection() {
 
         <div className="flex justify-center">
           <form
-            dir=""
+            dir={locale === "ar" ? "rtl" : "ltr"}
             className="bg-white md:p-4 p-3 shadow-lg shadow-black/5 rounded-3xl md:w-[85%] w-full  flex items-center justify-center flex-col"
             method="POST"
             onSubmit={(e) => handleSubmit(e)}

@@ -9,6 +9,7 @@ import ServiceTopSection from "@/components/ServiceTopSection";
 import TestimonialSection from "@/components/Testimonials";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import { useLocale } from "next-intl";
 import React from "react";
 
 interface Params {
@@ -28,6 +29,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       languages: {
         ar: `${process.env.PUBLIC_URL}/ar/services/`,
         en: `${process.env.PUBLIC_URL}/en/services/`,
+        "x-default": `${process.env.PUBLIC_URL}/en/services/`,
       },
     },
     openGraph: {
@@ -178,11 +180,12 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   };
 }
 function page() {
+  const locale = useLocale();
   return (
     <>
       <Navbar />
       <div
-        dir=""
+        dir={locale === "ar" ? "rtl" : "ltr"}
         className=" w-full flex flex-col justify-center items-center gap-y-16"
       >
         <ServiceTopSection />

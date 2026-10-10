@@ -70,25 +70,13 @@ export function GenerateJsonLd(locale: string) {
       },
       {
         "@type": "BreadcrumbList",
-        "@id": `${process.env.PUBLIC_URL}/${locale}/about-us/#breadcrumb`,
+        "@id": `${process.env.PUBLIC_URL}/${locale}/#breadcrumb`,
         itemListElement: [
           {
             "@type": "ListItem",
             position: 1,
             name: "Home",
             item: `${process.env.PUBLIC_URL}/${locale}/`,
-          },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: "About Us",
-            item: `${process.env.PUBLIC_URL}/${locale}/about-us/`,
-          },
-          {
-            "@type": "ListItem",
-            position: 3,
-            name: "Services",
-            item: `${process.env.PUBLIC_URL}/${locale}/services/`,
           },
         ],
       },

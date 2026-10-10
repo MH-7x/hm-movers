@@ -41,6 +41,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       languages: {
         ar: `${process.env.PUBLIC_URL}/ar/services-locations/movers-and-packers-dubai/`,
         en: `${process.env.PUBLIC_URL}/en/services-locations/movers-and-packers-dubai/`,
+        "x-default": `${process.env.PUBLIC_URL}/en/services-locations/movers-and-packers-dubai/`,
       },
     },
     openGraph: {

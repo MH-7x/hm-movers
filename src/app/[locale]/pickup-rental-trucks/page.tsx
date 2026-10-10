@@ -68,6 +68,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       languages: {
         ar: `${process.env.PUBLIC_URL}/ar/pickup-rental-trucks/`,
         en: `${process.env.PUBLIC_URL}/en/pickup-rental-trucks/`,
+        "x-default": `${process.env.PUBLIC_URL}/en/pickup-rental-trucks/`,
       },
     },
     openGraph: {

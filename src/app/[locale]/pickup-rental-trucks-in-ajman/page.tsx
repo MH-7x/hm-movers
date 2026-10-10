@@ -33,6 +33,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       languages: {
         ar: `${process.env.PUBLIC_URL}/ar/pickup-rental-trucks-in-ajman/`,
         en: `${process.env.PUBLIC_URL}/en/pickup-rental-trucks-in-ajman/`,
+        "x-default": `${process.env.PUBLIC_URL}/en/pickup-rental-trucks-in-ajman/`,
       },
     },
     openGraph: {

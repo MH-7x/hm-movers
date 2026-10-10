@@ -44,6 +44,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       languages: {
         ar: `${process.env.PUBLIC_URL}/ar/services/packing-services/`,
         en: `${process.env.PUBLIC_URL}/en/services/packing-services/`,
+        "x-default": `${process.env.PUBLIC_URL}/en/services/packing-services/`,
       },
     },
     openGraph: {
@@ -80,7 +81,7 @@ function CommercialOfficeMovers() {
     <>
       <Navbar />
       <div
-        dir=""
+        dir={locale === "ar" ? "rtl" : "ltr"}
         className=" w-full flex flex-col justify-center items-center gap-y-16"
       >
         <PerServiceSec

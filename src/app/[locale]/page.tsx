@@ -33,6 +33,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       languages: {
         ar: `${process.env.PUBLIC_URL}/ar/`,
         en: `${process.env.PUBLIC_URL}/en/`,
+        "x-default": `${process.env.PUBLIC_URL}/en/`,
       },
     },
     openGraph: {
@@ -66,7 +67,7 @@ function Home() {
       />
       <Navbar />
       <div
-        dir=""
+        dir={locale === "ar" ? "rtl" : "ltr"}
         className=" w-full flex flex-col justify-center items-center gap-y-16"
       >
         <HeroSection />

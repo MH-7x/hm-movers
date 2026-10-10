@@ -14,7 +14,7 @@ import packingIcon from "../../../../../public/images/packing-unpacking.png";
 import moveIcon from "../../../../../public/images/safe-transportation.png";
 import settingIcon from "../../../../../public/images/home-setting-icon.png";
 import TestimonialSection from "@/components/Testimonials";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { Metadata } from "next";
 import BackLinks from "@/components/BackLinks";
@@ -42,6 +42,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       languages: {
         ar: `${process.env.PUBLIC_URL}/ar/services/commerical-office-movers/`,
         en: `${process.env.PUBLIC_URL}/en/services/commerical-office-movers/`,
+        "x-default": `${process.env.PUBLIC_URL}/en/services/commerical-office-movers/`,
       },
     },
     openGraph: {
@@ -73,13 +74,14 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 }
 
 function CommercialOfficeMovers() {
+  const locale = useLocale();
   const p = useTranslations("service-process");
   const t = useTranslations("commerical");
   return (
     <>
       <Navbar />
       <div
-        dir=""
+        dir={locale === "ar" ? "rtl" : "ltr"}
         className=" w-full flex flex-col justify-center items-center gap-y-16"
       >
         <PerServiceSec
