@@ -59,7 +59,7 @@ const BackLinks = () => {
         <h2 className="mt-4 font-dm-sans text-mobile-h3 font-semibold leading-snug sm:text-mobile-h2 md:text-desktop-h2">
           Contact With Best{" "}
           <a
-            href="https://abumuhammadmovers.com/"
+            href="https://alafnanmoversandpackers.ae/movers-in-sharjah"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -70,18 +70,18 @@ const BackLinks = () => {
         <p className="mt-4 font-dm-sans text-desktop-paragraph text-slate-body">
           Looking for the{" "}
           <a
-            href="https://abumuhammadmovers.com/"
+            href="https://alafnanmoversandpackers.ae/movers-in-sharjah"
             target="_blank"
             rel="noopener noreferrer"
           >
             movers and packers in Sharjah
           </a>
           , we are the best{" "}
-          <a href="https://abumuhammadmovers.com/">
+          <a href="https://alafnanmoversandpackers.ae/movers-in-sharjah">
             moving company in Sharjah UAE
           </a>{" "}
           with affordable prices and{" "}
-          <a href="https://abumuhammadmovers.com/">
+          <a href="https://alafnanmoversandpackers.ae/movers-in-sharjah">
             professional moving services
           </a>
           .
@@ -129,7 +129,7 @@ const BackLinks = () => {
 
       <div className="mt-6 flex gap-5 items-center justify-center ">
         <a
-          href="https://abumuhammadmovers.com/"
+          href="https://alafnanmoversandpackers.ae/movers-in-sharjah"
           aria-label="best movers and packers in sharjah"
           target="_blank"
           rel="noopener noreferrer"
@@ -143,7 +143,7 @@ const BackLinks = () => {
           />
         </a>
         <a
-          href="https://abumuhammadmovers.com/"
+          href="https://alafnanmoversandpackers.ae/movers-in-sharjah"
           aria-label="moving company in sharjah"
           target="_blank"
           rel="noopener noreferrer"
