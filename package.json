@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lp:css": "tailwindcss -c tailwind.new.config.ts -i \"src/app/(new)/lp.source.css\" -o \"src/app/(new)/lp.css\" --minify",
+    "lp:css:watch": "tailwindcss -c tailwind.new.config.ts -i \"src/app/(new)/lp.source.css\" -o \"src/app/(new)/lp.css\" --minify --watch=always"
   },
   "dependencies": {
     "@react-email/components": "^0.0.25",

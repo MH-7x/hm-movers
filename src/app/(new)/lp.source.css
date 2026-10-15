@@ -1,0 +1,472 @@
+/*
+  Source stylesheet for the landing pages. NOT imported by Next.
+  Tailwind 3.4 leaks @config into other stylesheets processed in the same
+  process (it would break the old site's globals.css), so this file is
+  compiled ahead of time with the Tailwind CLI into lp.css, which layout.tsx imports:
+
+    npx tailwindcss -c tailwind.new.config.ts -i "src/app/(new)/lp.source.css" -o "src/app/(new)/lp.css" --minify
+
+  Add --watch while developing.
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------ */
+/* Base                                                                */
+/* ------------------------------------------------------------------ */
+@layer base {
+  :root {
+    --brand: #ffdc39;
+    --ink: #14212a;
+    --text: #202020;
+    --muted: #5f5f5f;
+    --elevated: #f2f2f2;
+    --line: rgba(20, 33, 42, 0.12);
+    --bar-h: 0px;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 88px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-surface font-body text-text antialiased;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-head text-ink;
+    text-wrap: balance;
+  }
+
+  /* Archivo is a variable font with a width axis: set headings slightly
+     expanded for a sturdy, freight-label feel. */
+  h1,
+  h2,
+  h3,
+  .font-head {
+    font-stretch: 112%;
+  }
+
+  h1 {
+    font-weight: 800;
+    font-size: clamp(30px, 8.4vw, 36px);
+    line-height: 1.1;
+    letter-spacing: -0.025em;
+  }
+
+  h2 {
+    font-weight: 800;
+    font-size: clamp(26px, 7vw, 28px);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+  }
+
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 52px;
+      line-height: 1.05;
+    }
+    h2 {
+      font-size: 38px;
+    }
+    h3 {
+      font-size: 21px;
+    }
+  }
+
+
+  a {
+    text-underline-offset: 3px;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--ink);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  .on-dark :focus-visible {
+    outline-color: var(--brand);
+  }
+
+  /* Below-the-fold sections: skip layout/paint until they near the viewport.
+     The hero and the first section after it are never deferred. Paired with
+     contain-intrinsic-size so the scrollbar does not jump. */
+  main > section:nth-of-type(n + 3),
+  body > footer {
+    content-visibility: auto;
+    contain-intrinsic-size: auto none auto 900px;
+  }
+
+  /* Mobile call bar space so it never covers content */
+  @media (max-width: 767.98px) {
+    body {
+      --bar-h: calc(68px + env(safe-area-inset-bottom));
+      padding-bottom: var(--bar-h);
+    }
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Components                                                          */
+/* ------------------------------------------------------------------ */
+@layer components {
+  .lp-container {
+    @apply mx-auto w-full max-w-page px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Buttons ---------------------------------------------------------- */
+  .lp-btn {
+    @apply inline-flex min-h-[48px] items-center justify-center gap-2 rounded-btn px-5 font-body text-[16px] font-bold leading-tight no-underline transition-[transform,background-color,border-color,color] duration-150;
+  }
+  .lp-btn:active {
+    transform: translateY(1px);
+  }
+  .lp-btn svg {
+    @apply h-5 w-5 shrink-0;
+  }
+  .lp-btn-call {
+    @apply border-2 border-brand bg-brand text-on-brand hover:border-ink;
+  }
+  .lp-btn-wa {
+    @apply border-2 border-ink bg-ink text-white hover:bg-[#22333f];
+  }
+  .lp-btn-wa-ghost {
+    @apply border-2 border-white/80 bg-transparent text-white hover:border-white hover:bg-white/10;
+  }
+  .lp-btn-outline {
+    @apply border-2 border-ink bg-transparent text-ink hover:bg-ink hover:text-white;
+  }
+
+  /* Highlight on H1 key words: a strip of packing tape --------------- */
+  .lp-mark {
+    color: var(--ink);
+    padding: 0 0.12em;
+    margin: 0 -0.04em;
+    background: linear-gradient(
+      176deg,
+      transparent 0 14%,
+      var(--brand) 14% 90%,
+      transparent 90%
+    );
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+  /* Tape stripe divider --------------------------------------------- */
+  .lp-tape {
+    height: 10px;
+    background: repeating-linear-gradient(
+      -45deg,
+      var(--brand) 0 14px,
+      var(--ink) 14px 28px
+    );
+  }
+
+  /* Blueprint grid texture ------------------------------------------ */
+  .lp-grid-bg {
+    background-color: var(--elevated);
+    background-image:
+      linear-gradient(rgba(20, 33, 42, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(20, 33, 42, 0.06) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  /* Box-label index tag on H2s -------------------------------------- */
+  .lp-tag {
+    @apply mb-4 inline-flex items-center gap-2 font-head text-[13px] font-extrabold tracking-[0.12em] text-ink;
+  }
+  .lp-tag::before {
+    content: "";
+    @apply inline-block h-[10px] w-6 bg-brand;
+  }
+  .on-dark .lp-tag {
+    @apply text-white;
+  }
+
+  /* Prose links ------------------------------------------------------- */
+  .lp-link {
+    @apply font-bold text-ink underline decoration-brand decoration-[3px] underline-offset-4 hover:decoration-ink;
+  }
+  .on-dark .lp-link {
+    @apply text-white hover:decoration-white;
+  }
+
+  /* Hero load sequence (the one motion moment) ----------------------- */
+  @media (prefers-reduced-motion: no-preference) {
+    .lp-rise {
+      animation: lp-rise 420ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+      animation-delay: calc(var(--i, 0) * 70ms);
+    }
+  }
+}
+
+@keyframes lp-rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Tables: stacked cards on narrow containers (responsive-table guide) */
+/* ------------------------------------------------------------------ */
+.lp-table-wrap {
+  container-type: inline-size;
+}
+
+.lp-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.lp-table th,
+.lp-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.lp-table thead th {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: #fff;
+  border-bottom: 2px solid var(--ink);
+}
+
+.lp-table tbody th {
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.lp-table tbody tr:last-child th,
+.lp-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+@container (width < 560px) {
+  .lp-table:not(.lp-nostack),
+  .lp-table:not(.lp-nostack) thead,
+  .lp-table:not(.lp-nostack) tbody,
+  .lp-table:not(.lp-nostack) tr,
+  .lp-table:not(.lp-nostack) th,
+  .lp-table:not(.lp-nostack) td {
+    display: block;
+  }
+  .lp-table:not(.lp-nostack) thead {
+    display: none;
+  }
+  .lp-table:not(.lp-nostack) tbody tr {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    background: #fff;
+    overflow: hidden;
+  }
+  .lp-table:not(.lp-nostack) tbody th {
+    background: var(--elevated);
+    border-bottom: 1px solid var(--line);
+  }
+  .lp-table:not(.lp-nostack) tbody td {
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    padding: 10px 16px;
+  }
+  .lp-table:not(.lp-nostack) tbody tr td:last-child {
+    border-bottom: 0;
+  }
+  .lp-table:not(.lp-nostack) tbody td[data-label]::before {
+    content: attr(data-label);
+    content: attr(data-label) / "";
+    flex: 0 0 40%;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .lp-table:not(.lp-nostack) tbody tr:last-child th {
+    border-bottom: 1px solid var(--line);
+  }
+}
+
+/* Price sheet: dotted leaders between size and price */
+.lp-price-table tbody th {
+  font-weight: 600;
+  color: var(--text);
+}
+.lp-price-table td.lp-price {
+  font-family: var(--font-head);
+  font-weight: 800;
+  color: var(--ink);
+  min-width: 7em;
+  text-align: right;
+}
+/* ------------------------------------------------------------------ */
+/* Compare table (affordable packages): horizontal scroll on mobile    */
+/* ------------------------------------------------------------------ */
+.lp-compare-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.lp-compare {
+  min-width: 640px;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-variant-numeric: tabular-nums;
+}
+.lp-compare th,
+.lp-compare td {
+  padding: 14px 16px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+  background: #fff;
+}
+.lp-compare thead th {
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--ink);
+  border-bottom: 2px solid var(--ink);
+}
+.lp-compare tbody th {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  font-weight: 700;
+  color: var(--ink);
+  min-width: 150px;
+  box-shadow: 1px 0 0 var(--line);
+}
+.lp-compare .lp-hi {
+  background: #fff8d6;
+}
+.lp-compare td.lp-price {
+  font-family: var(--font-head);
+  font-weight: 800;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+/* ------------------------------------------------------------------ */
+/* Form                                                                */
+/* ------------------------------------------------------------------ */
+.lp-input {
+  display: block;
+  width: 100%;
+  min-height: 48px;
+  padding: 11px 14px;
+  font: inherit;
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--text);
+  background: #fff;
+  border: 1.5px solid rgba(20, 33, 42, 0.35);
+  border-radius: 8px;
+  transition: border-color 120ms, box-shadow 120ms;
+}
+@media (pointer: coarse) {
+  .lp-input {
+    min-height: 52px;
+  }
+}
+.lp-input:hover {
+  border-color: rgba(20, 33, 42, 0.6);
+}
+.lp-input:focus-visible {
+  outline: none;
+  border-color: var(--ink);
+  box-shadow: 0 0 0 3px var(--brand);
+}
+.lp-input[aria-invalid="true"] {
+  border-color: #b3261e;
+  background: #fff6f5;
+}
+select.lp-input {
+  appearance: none;
+  -webkit-appearance: none;
+  padding-right: 42px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%2314212A' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+select.lp-input:invalid {
+  color: var(--muted);
+}
+select.lp-input option {
+  color: var(--text);
+}
+textarea.lp-input {
+  min-height: 88px;
+  resize: vertical;
+}
+
+/* Form grid follows the card width, not the viewport (2 columns only when fields stay readable) */
+.lp-form {
+  container-type: inline-size;
+}
+.lp-form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px 12px;
+}
+@container (min-width: 360px) {
+  .lp-form-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .lp-form-grid .lp-span-2 {
+    grid-column: span 2;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* FAQ (native details/summary)                                        */
+/* ------------------------------------------------------------------ */
+.lp-faq summary {
+  list-style: none;
+  cursor: pointer;
+}
+.lp-faq summary::-webkit-details-marker {
+  display: none;
+}
+.lp-faq .lp-faq-icon {
+  transition: transform 160ms ease;
+}
+.lp-faq[open] .lp-faq-icon {
+  transform: rotate(45deg);
+}
