@@ -116,7 +116,11 @@ function PerServiceSec() {
                 {t("sub")}
               </h3>
               <p className={`mt-2 ${locale === "ar" ? "ar-p" : ""}`}>
-                {t("desc")}
+                {t("desc")}{" "}
+                {locale === "en" && (
+                  <a href="https://readyrentpickuprental.com">{t("link")}</a>
+                )}
+                .
               </p>
               <div className="mt-5">
                 <Link href={"tel:+971503626685"}>
@@ -206,7 +210,8 @@ function PerServiceSec() {
                   locale === "ar" ? "font-bold" : "font-poppins"
                 }`}
               >
-                {tt("one.title")} <br /> {locale !== "ar" ? ` UAE` : `UAE `}
+                {tt("one.title")} <br />{" "}
+                {locale !== "ar" ? ` Sharjah` : `الشارقة `}
               </h3>
               <p
                 className={`mt-2 md:px-3 ${
@@ -238,7 +243,8 @@ function PerServiceSec() {
                   locale === "ar" ? "font-bold" : "font-poppins"
                 }`}
               >
-                {tt("two.title")} <br /> {locale !== "ar" ? ` UAE` : `UAE `}
+                {tt("two.title")} <br />{" "}
+                {locale !== "ar" ? ` Sharjah` : `الشارقة `}
               </h3>
               <p
                 className={`mt-2 md:px-3 ${
